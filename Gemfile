@@ -29,6 +29,8 @@ gem 'sassc'
 
 gem 'sass', '~> 3.7', '>= 3.7.4'
 
+gem 'uglifier', '~> 4.2'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
