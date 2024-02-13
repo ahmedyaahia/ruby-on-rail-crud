@@ -28,12 +28,7 @@ gem "jbuilder"
 gem 'sassc'
 
 gem 'sass', '~> 3.7', '>= 3.7.4'
-<<<<<<< HEAD
-
 gem 'uglifier', '~> 4.2'
-=======
->>>>>>> 9635ae2e17287c3cdc9020c3a6162e759b2821fc
-
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
