@@ -280,7 +280,7 @@ DEPENDENCIES
   sassc
   selenium-webdriver
   sprockets-rails
-  sqlite3 (~> 1.4)
+  sqlite3 (~> 1.7, >= 1.7.2)
   stimulus-rails
   terser (~> 1.2)
   turbo-rails
