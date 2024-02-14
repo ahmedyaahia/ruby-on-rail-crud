@@ -267,7 +267,7 @@ PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
-  bootsnap
+  bootsnap (~> 1.18, >= 1.18.3)
   capybara
   debug
   devise (~> 4.9, >= 4.9.3)
