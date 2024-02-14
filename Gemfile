@@ -42,11 +42,14 @@ gem 'terser', '~> 1.2'
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 
+gem 'orm_adapter', '~> 0.5.0'
+gem 'railties', '~> 7.1', '>= 7.1.3'
+gem 'responders', '~> 3.1', '>= 3.1.1'
+gem 'warden', '~> 1.2', '>= 1.2.9'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '~> 1.18', '>= 1.18.3', require: false
 
-gem 'devise', '>= 4.9.3'
-
+gem 'devise', '~> 4.9', '>= 4.9.3'
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
