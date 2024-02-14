@@ -70,9 +70,11 @@ group :development do
   # gem "spring"
 end
 group :production do
-  gem 'pg', '~> 1.5', '>= 1.5.4'
-	gem 'rails_12factor', '0.0.2'
+  gem 'pg'
+  gem 'rails_serve_static_assets'
+  gem 'rails_stdout_logging'
 end
+
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
