@@ -48,6 +48,7 @@ gem 'responders', '~> 3.1', '>= 3.1.1'
 gem 'warden', '~> 1.2', '>= 1.2.9'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '~> 1.18', '>= 1.18.3', require: false
+  gem 'sqlite3', '~> 1.7', '>= 1.7.2'
 
 gem 'devise', '~> 4.9', '>= 4.9.3'
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
@@ -61,7 +62,6 @@ end
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
-  gem 'sqlite3', '~> 1.7', '>= 1.7.2'
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
