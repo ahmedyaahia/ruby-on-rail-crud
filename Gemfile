@@ -68,10 +68,7 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
-group :development do
-  gem 'sqlite3', '~> 1.7', '>= 1.7.2'
 
-end
 
 group :production do
   gem 'pg', '~> 1.5', '>= 1.5.4'
